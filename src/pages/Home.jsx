@@ -28,11 +28,10 @@ const Home = () => {
   };
 
   const handleDownload = () => {
-    // Programmatically trigger the download of a PDF
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/file/d/1ueVQIkmfsmp49Vvvgk6bIKmK5_VeMbY1/view?usp=sharing"; // Replace with your PDF file path
-    link.download = "certificate.pdf"; // File name for download
+      "https://drive.google.com/file/d/1ShwEPGdPpoUCi285OPnN2Flp1JcbiVyl/view?usp=sharing";
+    link.download = "certificate.pdf";
     link.click();
   };
 
