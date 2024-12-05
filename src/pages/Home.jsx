@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Footer from "../components/Footer/Footer";
-import Navbar from "../components/Navbar/navbar";
+import Navbar from "../components/Navbar/Navbar";
 import {
   BodyContainer,
   DataContainer,
