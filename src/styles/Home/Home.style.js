@@ -24,8 +24,7 @@ export const DataContainer = styled.div`
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  max-width: 280px;
-  min-width: 220px;
+  width: 100%;
   margin-right: 20px;
   @media screen and (max-width: 1194px) {
     max-width: 100vw;
