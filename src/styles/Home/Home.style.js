@@ -10,7 +10,7 @@ export const MainContainer = styled.div`
 export const BodyContainer = styled.div`
   padding: 20px;
   display: flex;
-  max-width: 1440px;
+  max-width: 100%;
   margin: 20px auto 0;
   padding-bottom: 120px;
   @media screen and (max-width: 1194px) {
