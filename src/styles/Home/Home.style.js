@@ -10,7 +10,7 @@ export const MainContainer = styled.div`
 export const BodyContainer = styled.div`
   padding: 20px;
   display: flex;
-  max-width: 100%;
+  max-width: 1440px;
   margin: 20px auto 0;
   padding-bottom: 120px;
   @media screen and (max-width: 1194px) {
@@ -24,7 +24,8 @@ export const DataContainer = styled.div`
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  width: 100%;
+  max-width: 280px;
+  min-width: 220px;
   margin-right: 20px;
   @media screen and (max-width: 1194px) {
     max-width: 100vw;
