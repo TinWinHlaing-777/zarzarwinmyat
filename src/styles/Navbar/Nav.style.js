@@ -13,7 +13,7 @@ export const NavbarContainer = styled.nav`
 `;
 
 export const NavHeader = styled.h1`
-  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
